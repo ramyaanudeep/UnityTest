@@ -16,6 +16,7 @@ public class DoneHashIDs : MonoBehaviour
 	public int aimWeightFloat;
     public int angularSpeedFloat;
 	public int openBool;
+	int rahul;
 	
 	
 	void Awake ()
