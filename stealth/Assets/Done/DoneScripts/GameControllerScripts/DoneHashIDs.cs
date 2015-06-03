@@ -32,5 +32,6 @@ public class DoneHashIDs : MonoBehaviour
 		aimWeightFloat = Animator.StringToHash("AimWeight");
         angularSpeedFloat = Animator.StringToHash("AngularSpeed");
 		openBool = Animator.StringToHash("Open");
+		Debug.Log ("hey you");
 	}
 }
