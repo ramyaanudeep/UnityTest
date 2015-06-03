@@ -3,10 +3,10 @@ using System.Collections;
 
 public class DoneAlarmLight : MonoBehaviour
 {
-	public float fadeSpeed = 2f;			// How fast the light fades between intensities.
-	public float highIntensity = 2f;		// The maximum intensity of the light whilst the alarm is on.
-	public float lowIntensity = 0.5f;		// The minimum intensity of the light whilst the alarm is on.
-	public float changeMargin = 0.2f;		// The margin within which the target intensity is changed.
+	public float fadeSpeed = 3f;			// How fast the light fades between intensities.
+	public float highIntensity =3f;		// The maximum intensity of the light whilst the alarm is on.
+	public float lowIntensity = 0.9f;		// The minimum intensity of the light whilst the alarm is on.
+	public float changeMargin = 0.1f;		// The margin within which the target intensity is changed.
 	public bool alarmOn;					// Whether or not the alarm is on.
 	
 	
@@ -15,6 +15,8 @@ public class DoneAlarmLight : MonoBehaviour
 	
 	void Awake ()
 	{
+		Debug.Log ("hey nice project");
+
 		// When the level starts we want the light to be "off".
 		GetComponent<Light>().intensity = 0f;
 		
